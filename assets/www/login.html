@@ -1,0 +1,22 @@
+<div data-role="page" class="page" id="test">
+
+    <div data-role="header">
+        <h1>Login</h1>
+        <a href="index.html">Back</a>
+    </div>
+
+    <div data-role="content">
+        <div class="loader loader-style"><img src="css/images/ajax-loader.gif" /></div>
+        <form id="login-form" autocomplete=off>
+            <input type="hidden" name="list_login" id="list_login" value="true" />
+            <input type="email" name="list_email" id="email_login" placeholder="Email" />
+            <input type="password" name="list_password" id="password_login" placeholder="Password" />
+            <button data-role="button" id="cancel-login" data-inline="true">Cancel</button>
+            <input type="submit" id="login_account" data-inline="true" data-theme="b" value="Login" />
+        </form>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+        <h4>Page Footer</h4>
+    </div>
+</div>

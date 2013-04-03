@@ -1,0 +1,24 @@
+<div data-role="page" class="page" id="test">
+
+    <div data-role="header">
+        <h1>Create account</h1>
+        <a href="index.html">Back</a>
+    </div>
+
+    <div data-role="content">
+        <div class="loader loader-style"><img src="css/images/ajax-loader.gif" /></div>
+        <form id="create-account-form" autocomplete=off>
+            <input type="hidden" name="list_create" id="list_create" value="true" />
+            <input type="text" name="list_name" id="list_name" placeholder="Name" />
+            <input type="email" name="list_email" id="list_email" placeholder="Email" />
+            <input type="password" name="list_password" id="list_password" placeholder="Password" />
+            <input type="password" name="list_password_verify" id="list_password_verify" placeholder="Verify Password" />
+            <button data-role="button" id="cancel_create_account" data-inline="true">Cancel</button>
+            <input type="submit" id="create_account" data-inline="true" data-theme="b" value="Create Account" />
+        </form>
+    </div>
+
+    <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+        <h4>Page Footer</h4>
+    </div>
+</div>
